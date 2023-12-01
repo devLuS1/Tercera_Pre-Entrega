@@ -1,0 +1,41 @@
+
+/********************** MOBILE **********************/
+
+@media (max-width: 375px) {
+	.imageIndex1 {
+		img {
+			height: 70vh;
+		}
+	}
+	.textImageIndex1 {
+		h1 {
+			font-size: 3.2rem;
+		}
+	}
+	.index3Text {
+		padding: 100% 2% 4% 2%;
+	}
+	.footerTopIndex {
+		margin-top: 95%;
+	}
+	.footerTopProjects {
+		margin-top: 165%;
+	}
+	.about2Img {
+		margin-top: 8%;
+	}
+	.about3Container1 {
+		h2 {
+			margin-top: 40%;
+		}
+	}
+	.imgNews2 {
+		margin-top: 7%;
+		margin-bottom: 40%;
+	}
+	.contactContainer {
+		p {
+			width: auto;
+		}
+	}
+}

@@ -1,0 +1,130 @@
+
+/********************** PROJECTS **********************/
+.sectionProjects1 {
+	display: flex;
+	flex-direction: column;
+	margin: 6% 2.5% 4% 2.5%;
+	h1 {
+		font-size: 5rem;
+	}
+	p {
+		font-size: 1.125rem;
+		width: 45%;
+	}
+	button {
+		margin-top: 1%;
+		padding: 0.25%;
+		width: 10%;
+		cursor: pointer;
+		border-radius: 8px;
+		border: none;
+	}
+}
+.sectionProjects2 {
+	display: grid;
+	grid-template-columns: 24% 19% 7% 1% 20% 1% 5% 6% 17%;
+	grid-template-rows: 26% 8% 2% 5% 22% 6% 7% 12% 2% 2% 17%;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	margin: 2% 2% 18% 2%;
+}
+.allProjectsContainer1 {
+	grid-area: 1 / 2 / 4 / 4;
+	p {
+		margin-top: 1%;
+		font-size: 1.3rem;
+	}
+}
+.allProjectsContainer2 {
+	grid-area: 1 / 5 / 2 / 8;
+	p {
+		margin-top: 1%;
+		font-size: 1.3rem;
+	}
+}
+.allProjectsContainer3 {
+	grid-area: 5 / 1 / 7 / 2;
+	p {
+		margin-top: 1%;
+		font-size: 1.3rem;
+	}
+}
+.allProjectsContainer4 {
+	grid-area: 6 / 5 / 10 / 6;
+	p {
+		margin-top: 1%;
+		font-size: 1.3rem;
+	}
+}
+.allProjectsContainer5 {
+	grid-area: 3 / 7 / 8 / 10;
+	p {
+		margin-top: 1%;
+		font-size: 1.3rem;
+	}
+}
+.allProjectsContainer6 {
+	grid-area: 9 / 1 / 12 / 3;
+	p {
+		margin-top: 1%;
+		font-size: 1.3rem;
+	}
+}
+.allProjectsContainer7 {
+	grid-area: 11 / 9 / 12 / 10;
+	p {
+		margin-top: 1%;
+		font-size: 1.3rem;
+	}
+}
+.projectImg1 {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.projectImg2 {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.projectImg3 {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.projectImg4 {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.projectImg5 {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.projectImg6 {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.projectImg7 {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.sectionProjects3 {
+	&:nth-child(1) {
+		float: right;
+		margin-top: 3%;
+		width: 60%;
+		font-size: 1.25rem;
+	}
+	&:nth-child(2) {
+		display: flex;
+		float: right;
+		justify-content: end;
+		margin: 1% 2% 3%;
+		width: 60%;
+		font-size: 1.25rem;
+	}
+}

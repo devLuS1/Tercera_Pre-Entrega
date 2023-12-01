@@ -1,0 +1,31 @@
+/********************** HEADER **********************/
+
+$color_1: white;
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 95%;
+	margin: 1% auto;
+}
+.logo {
+	width: 7%;
+	img {
+		width: 100%;
+		cursor: pointer;
+	}
+}
+li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 40px;
+	&:first-child {
+		margin-left: 0px;
+	}
+}
+a {
+	text-decoration: none;
+	color: $color_1;
+	font-size: 1.2rem;
+}

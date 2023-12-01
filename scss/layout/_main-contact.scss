@@ -1,0 +1,117 @@
+
+/********************** CONTACT **********************/
+
+.sectionContact {
+	display: flex;
+	align-items: top;
+	padding: 5% 3%;
+	img {
+		width: 140%;
+	}
+}
+.contactContainer {
+	flex-direction: column;
+	margin: 6% 0%;
+	h1 {
+		font-size: 5rem;
+	}
+	p {
+		font-size: 1.125rem;
+		width: 80%;
+	}
+}
+.contact2Container1 {
+	h2 {
+		margin: 4% 2% 2% 2%;
+		font-size: 2.5rem;
+	}
+}
+.contact2Container2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 20px;
+	margin: 2% 2%;
+}
+.imgStudio1 {
+	width: 100%;
+}
+.imgStudio2 {
+	width: 100%;
+}
+.imgStudio3 {
+	width: 100%;
+}
+.imgStudio4 {
+	width: 100%;
+}
+.sectionStudio1Text {
+	p {
+		margin: 4% 0;
+	}
+}
+.sectionStudio2Text {
+	p {
+		margin: 4% 0;
+	}
+}
+.sectionStudio3Text {
+	p {
+		margin: 4% 0;
+	}
+}
+.sectionStudio4Text {
+	p {
+		margin: 4% 0;
+	}
+}
+.sectionContact3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 9% 2% 0 2%;
+	align-items: top;
+	gap: 5%;
+	h2 {
+		margin: 0% 0% 5% 0%;
+		font-size: 2.5rem;
+	}
+}
+.imgContact3 {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.formContainer {
+	width: 100%;
+}
+label {
+	display: block;
+	margin-bottom: 1%;
+	margin-top: 2.5%;
+}
+input[type="text"] {
+	display: block;
+	width: 80%;
+	padding: 0.625rem;
+	font-size: 1rem;
+	margin-bottom: 0.625rem;
+}
+textarea {
+	display: block;
+	width: 80%;
+	padding: 0.625rem;
+	font-size: 1rem;
+	margin-bottom: 0.625rem;
+}
+input[type="email"] {
+	display: block;
+	width: 80%;
+	padding: 0.625rem;
+	font-size: 1rem;
+	margin-bottom: 0.625rem;
+}
+.btnForm {
+	padding: 0.625rem 3.125rem;
+	cursor: pointer;
+	margin-top: 1.25rem;
+}
+

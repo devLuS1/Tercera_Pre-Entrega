@@ -1,0 +1,103 @@
+
+/********************** ABOUT **********************/
+
+.sectionAbout1 {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	img {
+		width: 100%;
+		height: calc(100vh - 8px);
+	}
+}
+.textSectionAbout1 {
+	position: absolute;
+	left: 9%;
+	top: 32%;
+	text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+	h1 {
+		font-size: 5rem;
+	}
+	p {
+		font-size: 1.125rem;
+		width: 45%;
+	}
+}
+.sectionAbout2 {
+	display: grid;
+	grid-template-columns: 20% 23% 15% 2% 40%;
+	grid-template-rows: 32% 48% 20%;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	margin: 8% 2%;
+}
+.about2Text1 {
+	grid-area: 1 / 1 / 2 / 3;
+}
+.about2Img {
+	grid-area: 1 / 5 / 4 / 6;
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+}
+.about2Text2 {
+	grid-area: 3 / 2 / 4 / 4;
+}
+.about3Container1 {
+	h2 {
+		margin: 10% 2% 2% 2%;
+		font-size: 2.5rem;
+	}
+}
+.about3Container2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 20px;
+	margin: 2% 2%;
+}
+.person1 {
+	width: 100%;
+}
+.person2 {
+	width: 100%;
+}
+.person3 {
+	width: 100%;
+}
+.person4 {
+	width: 100%;
+}
+.team1 {
+	p {
+		margin: 4% 0;
+	}
+}
+.team2 {
+	p {
+		margin: 4% 0;
+	}
+}
+.team3 {
+	p {
+		margin: 4% 0;
+	}
+}
+.team4 {
+	p {
+		margin: 4% 0;
+	}
+}
+.sectionAbout4 {
+	&:nth-child(1) {
+		margin: 9% 0% 0% 3%;
+		width: 60%;
+		font-size: 1.25rem;
+	}
+	&:nth-child(2) {
+		margin: 1% 0% 3% 3%;
+		width: 60%;
+		font-size: 1.25rem;
+	}
+}

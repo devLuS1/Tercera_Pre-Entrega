@@ -1,0 +1,64 @@
+
+/********************** FOOTER **********************/
+.footerTop {
+	display: grid;
+	grid-template-columns: 3% 10% 54% 30% 3%;
+	grid-template-rows: 100%;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	margin: 12% 0% 1% 0%;
+}
+.footerLogoContainer {
+	grid-area: 1 / 2 / 2 / 3;
+}
+.footerLogo {
+	width: 80%;
+}
+.socials {
+	grid-area: 1 / 4 / 2 / 5;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	gap: 1%;
+}
+.linkedinIcon {
+	width: 50%;
+}
+.twitterIcon {
+	width: 50%;
+}
+.instagramIcon {
+	width: 50%;
+}
+.youtubeIcon {
+	width: 50%;
+}
+.facebookIcon {
+	width: 50%;
+}
+.pinteresIcon {
+	width: 50%;
+}
+.footerBottom {
+	display: grid;
+	grid-template-columns: 3% 25% 39% 30% 3%;
+	grid-template-rows: 100%;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	margin: 0% 0% 2% 0%;
+}
+.linksFooter {
+	grid-area: 1 / 2 / 2 / 3;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	gap: 10%;
+}
+.copyright {
+	grid-area: 1 / 4 / 2 / 5;
+	font-size: 1rem;
+}
+.footerTopIndex {
+	margin-top: 25%;
+}
+.footerTopProjects {
+	margin-top: 35%;
+}
